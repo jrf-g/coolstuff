@@ -1,2 +1,2 @@
-# coolstuffinc
-Cool stuff written in C
+# coolstuff
+Cool stuff
