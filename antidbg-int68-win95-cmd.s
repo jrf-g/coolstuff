@@ -9,7 +9,6 @@ _start:
   cmp ax, 0f386h
   jz debugger
   jnz nodebugger
-
 debugger:
   mov ah, 09h
   mov dx, offset msga
