@@ -2,7 +2,7 @@
 msga db "debugger detected", 0x0A, 0
 msgb db "no debugger", 0x0A, 0
 .text
-global
+global _start
 _start:
   mov ah, 43h
   int 68h
