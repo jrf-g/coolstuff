@@ -14,11 +14,12 @@ debugger:
   mov ah, 09h
   mov dx, offset msga
   int 21h
-  mov ax, 4C00h
-  int 21h
+  jmp exit
 nodebugger:
   mov ah, 09h
   mov dx, offset msgb
   int 21h
+  jmp exit
+exit:
   mov ax, 4C00h
   int 21h
